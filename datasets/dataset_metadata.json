@@ -1,0 +1,24 @@
+{
+  "dataset_name": "EcoVision Solid Waste Segregation Benchmark",
+  "classes": [
+    "plastic",
+    "paper",
+    "glass",
+    "metal",
+    "cardboard",
+    "organic"
+  ],
+  "num_classes": 6,
+  "samples_per_class_target": 500,
+  "color_channels": 3,
+  "recommended_resolution": [224, 224],
+  "class_descriptions": {
+    "plastic": "Thermoplastic polymers including PET bottles, HDPE jugs, and LDPE containers.",
+    "paper": "Bleached and unbleached wood pulp paper, newspapers, magazines, and office sheets.",
+    "glass": "Silica-based containers, jars, and beverage bottles.",
+    "metal": "Aluminium beverage cans, tin food cans, and scrap ferrous metal.",
+    "cardboard": "Corrugated cardboard boxes, unbleached packaging, and rigid cartons.",
+    "organic": "Compostable biomass, fruit and vegetable peels, and food scraps."
+  }
+}
+
