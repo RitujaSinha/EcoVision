@@ -128,7 +128,7 @@ python3 app.py
 
 ## 🎥 Project Demo
 
-[▶️ Watch EcoVision Demo](assets/demo.mp4)
+[▶️ Watch EcoVision Demo](assets/demo.mov)
 
 
 
