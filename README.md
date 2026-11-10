@@ -1,25 +1,4 @@
 
-<p align="center">
-  <img src="assets/front.png" width="100%" alt="EcoVision Banner">
-</p>
-
-<h1 align="center">♻️ EcoVision</h1>
-
-<p align="center">
-  AI-Powered Smart Waste Classification System
-</p>
-
-## ✨ Key Features
-
-<p align="center">
-  <img src="assets/features.png" width="90%" alt="EcoVision Features">
-</p>
-
-## ♻️ Waste Categories
-
-<p align="center">
-  <img src="assets/categories.png" width="90%" alt="Waste Categories">
-</p>
 
 
 # EcoVision
@@ -29,13 +8,28 @@ The project follows the Model--View--Controller (MVC) architecture,
 keeping classification logic, request handling, and the user interface
 organized into separate layers.
 
-🌱 Waste Categories
+<p align="center">
+  <img src="assets/front.png" width="100%" alt="EcoVision Banner">
+</p>
 
+<h1 align="center">♻️ EcoVision</h1>
+
+<p align="center">
+   Smart Waste Classification System
+</p>
+
+🌱 Waste Categories
+ ## ♻️ Waste Categories
+
+<p align="center">
+  <img src="assets/categories.png" width="90%" alt="Waste Categories">
+</p>
 
 The application configuration also includes a human category as a
 non-waste safety category.
 
 ✨ Key Features
+
 
 - Image Classification: Submit waste images for classification.
 - Webcam Capture: Capture an item using your device camera.
@@ -47,14 +41,21 @@ non-waste safety category.
   decomposition information.
 - Scan History: Review previously scanned items.
 
+
+## ✨ Key Features
+
+<p align="center">
+  <img src="assets/features.png" width="90%" alt="EcoVision Features">
+</p>
+
+
 🛠️ Technology Stack
 
-- Backend: Python, Flask
-- Machine Learning: PyTorch, Torchvision
-- Image Processing: Pillow
-- Frontend: HTML, CSS, JavaScript
-- Production Server: Gunicorn
-- Deployment: Render, Docker
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Flask](https://img.shields.io/badge/Flask-Framework-black)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+![Computer Vision](https://img.shields.io/badge/Computer-Vision-green)
+![ai/ml](https://img.shields.io/badge/License-MIT-yellow)
 
 🏗️ Project Architecture
 
