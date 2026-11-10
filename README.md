@@ -1,3 +1,27 @@
+
+<p align="center">
+  <img src="assets/front.png" width="100%" alt="EcoVision Banner">
+</p>
+
+<h1 align="center">♻️ EcoVision</h1>
+
+<p align="center">
+  AI-Powered Smart Waste Classification System
+</p>
+
+## ✨ Key Features
+
+<p align="center">
+  <img src="assets/features.png" width="90%" alt="EcoVision Features">
+</p>
+
+## ♻️ Waste Categories
+
+<p align="center">
+  <img src="assets/categories.png" width="90%" alt="Waste Categories">
+</p>
+
+
 # EcoVision
 EcoVision is a deep learning-based waste classification and recycling assistant that identifies waste types from images and provides appropriate disposal and recycling recommendations. It aims to promote efficient waste segregation, reduce recycling contamination, and support sustainable waste management.
 
@@ -6,13 +30,7 @@ keeping classification logic, request handling, and the user interface
 organized into separate layers.
 
 🌱 Waste Categories
-  Category       Suggested Bin
-🧴 Plastic     Blue
-📄 Paper       Yellow
-🍾 Glass       Teal
-🥫 Metal       Silver
-📦 Cardboard   Brown
-🍎 Organic     Green
+
 
 The application configuration also includes a human category as a
 non-waste safety category.
@@ -100,44 +118,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 python3 app.py
 
-4. Open the application
 
-Visit:
-http://127.0.0.1:5005
 
-Press Ctrl + C in the terminal to stop the local server.
-For Windows, create and activate the environment with
-python -m venv venv and .\venv\Scripts\Activate.ps1.
 
-☁️ Deployment
-Render
-
-The repository includes a render.yaml configuration for deploying
-EcoVision on Render.
-
-1. Push the project to GitHub.
-2. Connect the repository to Render.
-3. Create a Blueprint deployment.
-4. Review the service settings and deploy.
-The supplied configuration uses Python 3.10.12 and Gunicorn to run the
-Flask application.
-
-Docker
-
-A Dockerfile is included for containerized deployment.
-docker build -t ecovision .
-docker run --rm -p 7860:7860 ecovision
-Open http://127.0.0.1:7860 in your browser.
-⚙️ Configuration
-Application settings are managed in config.py.
-
-Setting               Default
-Host                  0.0.0.0
-Port                  5005
-Debug mode            True
-Maximum upload size   16 MB
-
-For production deployment, set a secure SECRET_KEY and disable debug
-mode using environment variables.
 
 by Manish
