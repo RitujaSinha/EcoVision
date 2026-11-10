@@ -64,10 +64,9 @@ non-waste safety category.
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 
-🏗️ Project Architecture
-
 ## 🏗️ Project Architecture
 
+```text
 EcoVision/
 │
 ├── app.py                 # Flask application entry point
@@ -82,10 +81,11 @@ EcoVision/
 ├── controllers/           # Request handling
 ├── frontend/              # HTML, CSS and JavaScript
 └── datasets/              # Samples and uploaded images
-
+```
 
 ## 🔄 MVC Workflow
 
+```text
 User
   ↓
 Frontend (View)
@@ -97,6 +97,7 @@ Model / Classifier
 Classification Result
   ↓
 Frontend (View)
+```
 
 
 🚀 Getting Started
