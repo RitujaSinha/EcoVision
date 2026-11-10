@@ -126,7 +126,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 python3 app.py
 
+## 🎥 Project Demo
 
+[▶️ Watch EcoVision Demo](assets/demo.mp4)
 
 
 
