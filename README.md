@@ -131,5 +131,4 @@ python3 app.py
 
 https://github.com/user-attachments/assets/17de4b62-b9c8-439b-9c7f-ba76d1c41e51
 
-**by Manish**
 
